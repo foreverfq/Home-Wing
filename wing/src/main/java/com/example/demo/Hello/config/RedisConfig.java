@@ -48,7 +48,6 @@ public class RedisConfig extends CachingConfigurerSupport {
     @Value("${redis.testWhileIdle}")
     private boolean testWhileIdle;
 
-
     @Value("${spring.redis.cluster.nodes}")
     private String clusterNodes;
 
